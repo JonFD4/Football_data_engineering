@@ -44,3 +44,19 @@ Once the game is over, everyone wants to check wear the teams rank which leads t
     1. There must be 20 teams
     2. All cells must be populated
     3. Numeric fields must be integers
+
+# Installing dependencies
+## Kernel
+```
+python -m ensurepip --upgrade
+```
+```
+python -m pip install  --upgrade pip
+```
+```
+python -m pip install  ipykernel
+```
+## Python libraries
+```
+python -m pip install pandas mysql-connector-python python-dotenv requests
+```
